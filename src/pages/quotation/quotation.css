@@ -1,0 +1,21 @@
+
+.ContainerMain {
+  display: inline-flex; 
+  justify-content: space-between;
+  width: 100%;
+  background-color: #dcdcdc;
+  padding: 10px;
+}
+
+.main-tabs {
+  display: none;
+}
+
+.active-main-tab {
+  display: block
+}
+
+.tabView {
+  padding: 10px;
+  background-color: #f8f8f8;
+}

@@ -1,0 +1,127 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 24, 2016, 9:35:08 AM
+    Author     : mp wimalasooriya
+*/
+
+@media (min-width: 1367px){
+    .column-1, .column-2, .column-3{
+        padding: 0 15px;
+        min-height: 625px;
+    }
+    .adb-block{
+        margin: 5px;
+        background-color: #fafafa;
+    }
+}
+
+@media only screen and (max-width: 1366px){
+    .column-1, .column-2, .column-3{
+        padding: 0 15px;
+    }
+    .column-2 #health .row div,.column-2 #disability .row div,
+    .column-2 #protection .row div,.column-2 #all .row div{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 1170px){
+
+
+}
+
+@media only screen and (max-width: 1064px){
+
+    .column-1, .column-2, .column-3{
+        padding: 0 5px;
+    }
+
+}
+/* ------------------------------ rules for medium ends ------------------------ */
+
+@media only screen and (max-width: 996px){
+
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .header .navbar-header{
+        width: 100%;
+    }
+
+    .column-1, .column-2, .column-3{
+        margin-bottom: 15px;
+        max-height: 100%;
+        min-height: 100%;
+    }
+
+    .column-3 .premium{
+        height: 100%;
+    }
+
+/*    .column-2 .nav-next, .column-2 .nav-prev{
+        display: none;
+    }
+
+    .column-2 .block-wrapper {
+        margin-bottom: 0;
+    }*/
+
+
+}
+
+@media only screen and (max-width: 769px) {
+
+    .search-li {
+        width: 100%;
+        display: table !important;
+        padding: 5px 15px;
+    }
+    .s-input {
+        width: 90%;
+    }
+    .dropdown-content {
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+}
+
+/* ------------------------------ rules for small ends ------------------------ */
+
+@media only screen and (max-width: 500px) {
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    
+     .s-input {
+        width: 85%;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+
+
+
+}
+
+@media only screen and (max-width: 320px) {
+
+
+
+}
+
+
